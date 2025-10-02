@@ -5,7 +5,7 @@ int main() {
 
   saida = fopen("saida.txt", "w");
 
-  fprintf(saida, "Primeiro arquivo em C");
+  fputs("Primeiro arquivo em C", saida);
 
   fclose(saida);
 
