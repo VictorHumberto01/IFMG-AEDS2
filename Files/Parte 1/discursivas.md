@@ -1,12 +1,14 @@
 # Questão 1
 
-### **A)** Os arquivos de texto são escritos em ASCII 2 fazendo com que sejam compativeis com editores de texto, porém sejam maiores em tamanho já que caracteres ocupam mais espaço. Usam as funções fprintf, fscanf, fgets, fputs. Os binários são escritos com dados na forma bruta, ocupam menos espaço e são mais rápidos de gravar e ler. Mais adequados para estruturas de dados complexas e grandes volumes de dados. Usam fwrite, fread.
+### **A)** 
+Os arquivos de texto são escritos em ASCII 2 fazendo com que sejam compativeis com editores de texto, porém sejam maiores em tamanho já que caracteres ocupam mais espaço. Usam as funções fprintf, fscanf, fgets, fputs. Os binários são escritos com dados na forma bruta, ocupam menos espaço e são mais rápidos de gravar e ler. Mais adequados para estruturas de dados complexas e grandes volumes de dados. Usam fwrite, fread.
 
-### **B)** Os arquivos permitem que dados sejam persistentes ou seja, sejam lembrados entre sessões.
+### **B)** 
+Os arquivos permitem que dados sejam persistentes ou seja, sejam lembrados entre sessões.
 
 # Questão 2
 
-### A leitura sequencial percorre o arquivo do inicio ao fim, passo a passo. É mais lenta já que é necessário percorrer todos os dados até que se chegue no objetivo. 
+A leitura sequencial percorre o arquivo do inicio ao fim, passo a passo. É mais lenta já que é necessário percorrer todos os dados até que se chegue no objetivo. 
 
 **Exemplo:**
 
@@ -25,7 +27,7 @@ int main() {
     return 0;
 }
 ```
-### A leitura randômica permite que o programa pule partes dos dados e vá direto à posição desejada. Isso pode ser feito usando o fseek().
+A leitura randômica permite que o programa pule partes dos dados e vá direto à posição desejada. Isso pode ser feito usando o fseek().
 
 ```
 #include <stdio.h>
@@ -47,7 +49,7 @@ int main() {
 
 # Questão 3
 
-### Modos de abertura de arquivos em C (`fopen`)
+Modos de abertura de arquivos em C (`fopen`)
 
 1. **"r"**  
    - Abre um arquivo para **leitura**.  
