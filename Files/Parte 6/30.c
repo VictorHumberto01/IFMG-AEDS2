@@ -91,7 +91,7 @@ int main() {
             puts("\n==== LISTA DE NOTAS ====\n");
 
             while (fgets(linha, sizeof(linha), notas)) {
-                linha[strcspn(linha, "\n")] = 0; // remove quebra de linha
+                linha[strcspn(linha, "\n")] = 0;
 
                 char *nome = strtok(linha, ";");
                 char *conteudo = strtok(NULL, ";");
